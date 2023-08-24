@@ -1,12 +1,6 @@
-<div class="container">
-<app-cockpit></app-cockpit>
-    <hr>
-    <div class="row">
-        <div class="col-xs-12">
-            <app-server-element *ngFor="let serverElement of serverElements"></app-server-element>
-            <!-- <div 
-            class="panel panel-default" 
-            *ngFor="let element of serverElements">
+<!-- <p>server-element works!</p> -->
+<div 
+            class="panel panel-default">
                 <div class="panel-heading">{{ element.name }}</div>
                 <div class="panel-body">
                     <p>
@@ -15,7 +9,4 @@
                         <em *ngIf="element.type === 'blueprint'">{{ element.content}}</em>
                     </p>
                 </div>
-            </div> -->
-        </div>
-    </div>
-</div>
+            </div>
